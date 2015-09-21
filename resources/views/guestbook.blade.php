@@ -41,7 +41,9 @@
         </div>
 
         <div class="form-group" v-if="! submitted">
-          <button type="submit" name="" class="btn btn-default" v-attr="disabled: errors">Sign Guestbook</button>
+          <button type="submit" class="btn btn-default" v-attr="disabled: errors">
+            Sign Guestbook
+          </button>
         </div>
 
         <div class="alert alert-success" v-if="submitted">
